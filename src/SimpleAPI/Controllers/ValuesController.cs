@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace SimpleAPI.Controllers
 {
+    [ApiController]
+    [Route("/api/[Controller]")]
     public class ValuesController : Controller
     {
         public ValuesController()
