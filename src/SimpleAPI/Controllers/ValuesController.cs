@@ -13,6 +13,7 @@ namespace SimpleAPI.Controllers
         [HttpGet]
         public ActionResult<string> Get()
         {
+            // Just a test
             return "Test";
         }
     }
